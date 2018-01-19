@@ -1,0 +1,98 @@
+.fullview {
+  padding: 10px;
+}
+
+#parenttimer {
+    display: table;
+
+    border: 1px solid green;
+    width: 320px;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    background-color: green;  
+}
+
+#parentbutton {
+    display: table;
+
+    border-top: 1px solid green;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
+    width: 320px;
+    height: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    background-color: lightyellow;
+}
+
+#parentlap {
+    display: table;
+
+    border-right: 1px solid green;
+    border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    width: 320px;
+    height: 0px;
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    background-color: lightyellow;
+}
+
+#child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+button {
+  border: 1px solid lightyellow;
+  box-shadow: 0 0 4px green;
+  padding: 10px;
+  font-size: 16px;
+  color: green;
+  margin: 30px 30px 0px 30px;
+  width: 200px;
+  background-color:lightyellow;
+  outline: none;
+}
+
+button:active {
+  background-color:green;
+  color:white;
+  border: 1px solid green;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    width: 320px;
+    margin: 10px 0px 0px 0px;
+}
+
+ul li {
+    background-color: green;
+    color: white;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid green;
+}
+
+span {
+  float: right;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+sup {
+  font-size: 8px;
+  font-weight: lighter;
+  color: yellow;
+}
