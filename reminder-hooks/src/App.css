@@ -1,0 +1,79 @@
+html {
+  overflow: auto;
+  overscroll-behavior: none;
+  height: 500px;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background: dodgerblue;
+}
+
+.app {
+  padding: 50px;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.todo-list {
+  background: white;
+  border-radius: 3px;
+  padding: 10px;
+  max-width: 768px;
+  box-shadow: 2px 2px 5px #0005;
+  margin: auto;
+  text-decoration-color: red;
+  color: #0009;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 2px 2px 8px #0005;
+  padding: 5px 15px;
+  font-size: 13px;
+  margin-bottom: 6px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  box-shadow: 2px 2px 8px #0005;
+  border-radius: 2px;
+  padding: 5px 15px;
+  height: 40px;
+  outline: none;
+}
+
+.button {
+  border: none;
+  box-shadow: 2px 2px 3px 0px #0005;
+  outline: none;
+  border-radius: 3px;
+  padding: 10px;
+  line-height: 10px;
+  box-sizing: border-box;
+}
+
+.button.delete {
+  color: white;
+  background: red;
+  cursor: pointer;
+}
+
+.button.delete:active,
+.button.delete:hover {
+  color: black;
+}
+
+.appTitle {
+  margin: 20px 0;
+  text-align: center;
+  color: #0005;
+}
